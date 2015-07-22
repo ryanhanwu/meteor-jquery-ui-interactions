@@ -1,22 +1,13 @@
 Package.describe({
-	name: 'ryanwu:jquery-ui-interactions',
-	version: '0.0.1',
-	// Brief, one-line summary of the package.
-	summary: 'Basic interaction behaviors to any element, includes draggable, droppable, resizable, selectable, and sortable',
-	// URL to the Git repository containing the source code for this package.
-	git: '',
-	// By default, Meteor will default to using README.md for documentation.
-	// To avoid submitting documentation, set this field to null.
-	documentation: 'README.md'
+	name: "ryanwu:jquery-ui-interactions",
+	version: "0.1.0",
+	summary: "Basic interaction behaviors to any element, includes draggable, droppable, resizable, selectable, and sortable.",
+	git: "git@github.com:ryanhanwu/meteor-jquery-ui-interactions.git",
+	documentation: "README.md"
 });
 
 Package.onUse(function(api) {
-	api.versionsFrom('1.1.0.2');
-	api.addFiles('jquery-ui-interactions.js');
-});
-
-Package.onTest(function(api) {
-	api.use('tinytest');
-	api.use('ryanwu:jquery-ui-interactions');
-	api.addFiles('jquery-ui-interations-tests.js');
+	api.versionsFrom("METEOR@1.1.0.2");
+	api.use("jquery", "client");
+	api.addFiles(["jquery-ui-interactions.js", "jquery-ui-interactions.css"], "client");
 });
