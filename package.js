@@ -2,7 +2,7 @@ Package.describe({
 	name: "ryanwu:jquery-ui-interactions",
 	version: "0.1.0",
 	summary: "Basic interaction behaviors to any element",
-	git: "git@github.com:ryanhanwu/meteor-jquery-ui-interactions.git",
+	git: "https://github.com/ryanhanwu/meteor-jquery-ui-interactions.git",
 	documentation: "README.md"
 });
 
