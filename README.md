@@ -1,4 +1,6 @@
-# meteor-jquery-ui-interactions
+[![Meteor Icon](http://icon.meteor.com/package/ryanwu:jquery-ui-interactions)](https://atmospherejs.com/ryanwu/jquery-ui-interactions)
+
+# Meteor jQuery UI Interactions
 
 ## About
 
@@ -14,12 +16,6 @@ This is a [meteor](https://www.meteor.com/) package which contains jQueryUI's in
 ## Installation
 ```
 meteor add ryanwu:jquery-ui-interactions
-```
-
-or 
-
-```
-mrt add jquery-ui-interactions
 ```
 
 ## Reference
